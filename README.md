@@ -1,13 +1,25 @@
-# node-ts-boilerplate
+# Bots
 
-Boilerplate for starting node.js and typescript servers already with yarn. 
+## ClapperBot
 
-## Installing
+- What does it do?
 
-`npx degit pedropalhari/node-ts-boilerplate my-project`
+Transforms `some text that I want to be clapped` into `some 👏 text 👏 that 👏 I 👏 want 👏 to 👏 be 👏 clapped 👏`.
 
-## Commands
+- Telegram usage:
 
-- `yarn start`: runs the distributed copy on `dist/index.js`
-- `yarn dev`: starts the typescript compiler on watch mode (`tsc -w`)
-  - in `tsconfig.json` you can set the properties on `outDir` and `rootDir`
+inline: `@the_clapper_bot <message>`
+
+- Why?
+
+It's boring having to insert this clap emoji every time I want to impersonate this ridiculous way of speaking.
+
+# Personal usage
+
+Each bot has it's own index.ts page, there's also a `bot_tokens.json` with each bot token from `@BotFather`. Obviously removed mine but left a `bot_tokens.example.json`.
+
+## Running
+
+- `yarn`
+- `yarn dev`
+- `yarn start`
